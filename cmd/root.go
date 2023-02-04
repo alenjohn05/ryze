@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alpkeskin/wau/cmd/apps"
+	"github.com/alenjohn05/ryze/cmd/apps"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
@@ -14,10 +14,10 @@ import (
 var all bool = false
 
 var rootCmd = &cobra.Command{
-	Use:   "wau [email]",
-	Short: "wau helps you find apps where target mail is registered.",
+	Use:   "ryze [email]",
+	Short: "ryze helps you find apps where target mail is registered.",
 	Args:  cobra.ExactArgs(1),
-	Long:  "wau helps you find apps where target mail is registered.",
+	Long:  "ryze helps you find apps where target mail is registered.",
 	Run: func(cmd *cobra.Command, args []string) {
 		start := time.Now()
 		fmt.Println("Where are you", color.YellowString(args[0]), "? \U0001f9d0")
