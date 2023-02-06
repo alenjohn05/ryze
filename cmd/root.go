@@ -15,9 +15,9 @@ var all bool = false
 
 var rootCmd = &cobra.Command{
 	Use:   "ryze [email]",
-	Short: "ryze helps you find apps where target mail is registered.",
+	Short: "ryze helps you find apps where target mail is registered. [v0.1]",
 	Args:  cobra.ExactArgs(1),
-	Long:  "ryze helps you find apps where target mail is registered.",
+	Long:  "ryze helps you find apps where target mail is registered. [v0.1]",
 	Run: func(cmd *cobra.Command, args []string) {
 		start := time.Now()
 		fmt.Println("Where are you", color.YellowString(args[0]), "? \U0001f9d0")
