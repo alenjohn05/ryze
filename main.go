@@ -1,6 +1,6 @@
 package main
 
-import "github.com/alenjohn05/ryze/cmd"
+import "github.com/alenjohn05/wau/cmd"
 
 func main() {
 	cmd.Execute()

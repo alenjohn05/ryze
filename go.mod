@@ -1,4 +1,4 @@
-module github.com/alenjohn05/ryze
+module github.com/alenjohn05/wau
 
 go 1.17
 
