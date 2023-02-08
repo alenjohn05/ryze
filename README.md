@@ -1,18 +1,18 @@
 # Where are you ? :monocle_face:
- - wau helps you find apps where target email is registered.
-   - wau takes less than **2** seconds!
-   - wau can be executed through a **Command Line Interface**!
-   - wau checks **6** popular apps!
+ - ryze helps you find apps where target email is registered.
+   - ryze takes less than **2** seconds!
+   - ryze can be executed through a **Command Line Interface**!
+   - ryze checks **6** popular apps!
  
 > The development process continues and the project is open to contributions.
 
 ## Installation
 
-`go install -v github.com/alenjohn05/wau@latest`
+`go install -v github.com/alenjohn05/ryze@latest`
 
 ## Usage
 
-`wau example@site.com`
+`ryze example@site.com`
 
 ### Flags
 
@@ -33,7 +33,7 @@
 | Twitter   |    :white_check_mark:    |
 | Vsco      |    :white_check_mark:    |
 
-> Rate limits are usually based on IP, so if `wau` doesn't work properly after a while, change your IP.
+> Rate limits are usually based on IP, so if `ryze` doesn't work properly after a while, change your IP.
 
 ### Thank you to
 - [holehe](https://github.com/megadose/holehe)
@@ -42,4 +42,4 @@
 ### To Do
 - [ ] Add more apps.
 - [ ] Add output module (txt).
-- [ ] Make **wau** faster.
+- [ ] Make **ryze** faster.
