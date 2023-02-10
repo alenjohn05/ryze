@@ -7,7 +7,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alenjohn05/wau/cmd/apps"
+	"github.com/alenjohn05/ryze/cmd/apps"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
@@ -15,10 +15,10 @@ import (
 var all bool = false
 
 var rootCmd = &cobra.Command{
-	Use:   "wau [email]",
-	Short: "wau helps you find apps where target mail is registered. [v0.1]",
+	Use:   "ryze [email]",
+	Short: "ryze helps you find apps where target mail is registered. [v0.1]",
 	Args:  cobra.ExactArgs(1),
-	Long:  "wau helps you find apps where target mail is registered. [v0.1]",
+	Long:  "ryze helps you find apps where target mail is registered. [v0.1]",
 	Run: func(cmd *cobra.Command, args []string) {
 		re := regexp.MustCompile("^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$")
 		if !re.MatchString(args[0]) {
