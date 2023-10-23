@@ -21,9 +21,6 @@
 | -h   | Help Menu         |
 | -all | Shows all results |
 
-### Screen
-
-[![wau](https://asciinema.org/a/491392.svg)](https://asciinema.org/a/491392)
 
 ## Apps
 
